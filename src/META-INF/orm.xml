@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity-mappings xmlns="http://java.sun.com/xml/ns/persistence/orm"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/persistence/orm http://java.sun.com/xml/ns/persistence/orm_2_0.xsd"
+	version="2.0">
+	<named-query name="findToneelstuken">
+	<query>
+		SELECT t from Toneelstuk t ORDER BY t.mapnummer
+	</query>
+	</named-query>
+		<named-query name="findToneelstukByText">
+		<query>
+		SELECT t FROM Toneelstuk t WHERE (t.naamstuk) LIKE (:keyword) OR (t.naamauteur) LIKE (:keyword) OR (t.opmerkingen) LIKE (:keyword) ORDER BY t.mapnummer
+		</query>
+	</named-query>
+		<named-query name="findToneelstukByAantalSpelers">
+		<query>
+		SELECT t FROM Toneelstuk t WHERE t.aantalspelers = :aantalspelers ORDER BY t.mapnummer
+		</query>
+	</named-query>
+</entity-mappings>

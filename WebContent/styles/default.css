@@ -1,0 +1,22 @@
+body{
+	fontfamily=Verdana;
+	background-color: gray;
+}
+
+menu{
+	float:left;
+	width:100%;
+	background-color: gray;
+}
+
+content{
+	float:left;
+	width:90%;
+	background-color: gray;
+}
+
+.error{
+	color:red;
+	margin-left:10px;
+	background-color: gray;
+}

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="toneel">
+        <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+        <wb-resource deploy-path="/WEB-INF/classes/" source-path="/ImportedClasses"/>
+        <dependent-module archiveName="spring-beans-3.2.9.RELEASE.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/spring-beans-3.2.9.RELEASE/spring-beans-3.2.9.RELEASE">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-security-acl-3.2.4.RELEASE.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/spring-security-acl-3.2.4.RELEASE/spring-security-acl-3.2.4.RELEASE">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-core-3.2.9.RELEASE.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/spring-core-3.2.9.RELEASE/spring-core-3.2.9.RELEASE">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-orm-3.2.9.RELEASE.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/spring-orm-3.2.9.RELEASE/spring-orm-3.2.9.RELEASE">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-tx-3.2.9.RELEASE.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/spring-tx-3.2.9.RELEASE/spring-tx-3.2.9.RELEASE">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="standard-1.1.2.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/standard-1.1.2/standard-1.1.2">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-security-web-3.2.4.RELEASE.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/spring-security-web-3.2.4.RELEASE/spring-security-web-3.2.4.RELEASE">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-web-3.2.9.RELEASE.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/spring-web-3.2.9.RELEASE/spring-web-3.2.9.RELEASE">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-test-3.2.9.RELEASE.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/spring-test-3.2.9.RELEASE/spring-test-3.2.9.RELEASE">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-context-3.2.9.RELEASE.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/spring-context-3.2.9.RELEASE/spring-context-3.2.9.RELEASE">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="validation-api-1.1.0.Final.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/validation-api-1.1.0.Final/validation-api-1.1.0.Final">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-security-taglibs-3.2.4.RELEASE.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/spring-security-taglibs-3.2.4.RELEASE/spring-security-taglibs-3.2.4.RELEASE">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-jdbc-3.2.9.RELEASE.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/spring-jdbc-3.2.9.RELEASE/spring-jdbc-3.2.9.RELEASE">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-webmvc-3.2.9.RELEASE.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/spring-webmvc-3.2.9.RELEASE/spring-webmvc-3.2.9.RELEASE">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="slf4j-simple-1.7.7.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/slf4j-simple-1.7.7/slf4j-simple-1.7.7">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="xml-apis-1.0.b2.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/xml-apis-1.0.b2/xml-apis-1.0.b2">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="slf4j-api-1.7.7.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/slf4j-api-1.7.7/slf4j-api-1.7.7">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-security-config-3.2.4.RELEASE.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/spring-security-config-3.2.4.RELEASE/spring-security-config-3.2.4.RELEASE">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-security-core-3.2.4.RELEASE.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/spring-security-core-3.2.4.RELEASE/spring-security-core-3.2.4.RELEASE">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-aop-3.2.9.RELEASE.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/spring-aop-3.2.9.RELEASE/spring-aop-3.2.9.RELEASE">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-expression-3.2.9.RELEASE.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/spring-expression-3.2.9.RELEASE/spring-expression-3.2.9.RELEASE">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <property name="context-root" value="toneel"/>
+        <property name="java-output-path" value="/toneel/build/classes"/>
+    </wb-module>
+</project-modules>
